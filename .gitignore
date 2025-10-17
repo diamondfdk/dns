@@ -1,0 +1,7 @@
+.env
+app
+config.capnp
+node_modules/
+nginx/ssl/
+worker/
+.wrangler
