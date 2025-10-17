@@ -13,9 +13,17 @@ const endpoints = {
         path: "/dns-query",
       },
       {
-        main: true,
         host: "cloudflare-dns.com",
         path: "/dns-query",
+      },
+      {
+        main: true,
+        host: "doh3.nextdns.io",
+        path: "/ed34d9",
+        headers: {
+          "X-Device-Name": "onepal",
+          "X-Device-Model": "11",
+        },
       },
     ],
   },
