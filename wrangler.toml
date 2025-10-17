@@ -2,7 +2,7 @@ name = "dns"
 workers_dev = true
 upload_source_maps = true
 preview_urls = true
-send_metrics = false
+send_metrics = true
 
 compatibility_flags = [ "nodejs_compat" ]
 compatibility_date = "2025-05-06"
