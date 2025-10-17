@@ -18,7 +18,7 @@ const endpoints = {
       },
       {
         main: true,
-        host: "doh3.nextdns.io",
+        host: "dns.nextdns.io",
         path: "/ed34d9",
         headers: {
           "X-Device-Name": "onepal",
